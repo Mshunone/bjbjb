@@ -534,19 +534,22 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
   goblok = fs.readFileSync('./video/ga.jpg')
-                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+
 │⭔ 1 Minggu :10k
 │⭔ 1 Bulan :15k
 │⭔ Permanen :20k
 └───────⭓
-┌──⭓ *Jadi Bot*
-│⭔ Jasa Jadi Bot: 30k
-│⭔ Jadi Owner AzzBot: 15k
+┌──⭓ *Jadi Bot*
+
+│⭔ Jasa Jadi Bot: 50k
+│⭔ [Paket lengkap tnggal scan]
 └───────⭓
-┌──⭓ *Harga Sc Bot Wa*
-│⭔ Versi 1 :20k
-│⭔ Versi 2 :25k
-│⭔ Free :Di Yt MBY•OFFICIAL
+┌──⭓ *Ayo Kenal owner*
+
+│⭔ IG: 
+│⭔ WA:
+│⭔ 
 └───────⭓` }, { quoted: m })
             }
             case 'subscribe':{
@@ -2815,13 +2818,13 @@ let capt = `⭔ Title: ${judul}
             case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `AzzBot Siap membantu anda\n`,
+                    title: `Setraight-Bot Siap membantu anda\n`,
                     description: "*Klik tombol dibawah*",
                     buttonText: "Menu",
                     footerText: "Note:JANGAN SPAM!!",
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "🤖Bot By MBY•OFFICIAL🤖",
+								"title": "🤖Bot By Setraight🤖",
 								"rows": [
 									{
 										"title": "▪️Tutor Pasang Bot",
@@ -2923,7 +2926,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Owner 👨‍💻",
 								"rows": [
 									{
-										"title": "MBY•OFFICIAL",
+										"title": "Owner bot",
 										"rowId": `${prefix}owner`
 									
 									}]
@@ -2943,10 +2946,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 Hai Saya Bot Wa
 Siap Melayani Anda
 Ketik (.menu) Untuk Mengakses
-Mau Script? Bisa Chat Owner
-Thanks Sudah Menggunakan
-AzzBot-MD Jangan Lupa Subscribe
-Chanel : https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+Mau Join nin bot ke grub?
+Cht owner ya
+Thanks Sudah Menggunakan Ya
 Nih Musik Buat Menghibur
 ───────⭓`
             let btn = [{
@@ -2978,9 +2980,9 @@ break
  case 'allmenu': {
                 anu = `
 
-┌──⭓ *𝘈𝘻𝘻𝘉𝘰𝘵•𝘔𝘋*
-│⭔ 𝘖𝘸𝘯𝘦𝘳:𝗬𝗮𝗵𝘆𝗮 
-│⭔ 𝘝𝘦𝘳𝘴𝘪𝘰𝘯: 4.0
+┌──⭓ *Setraight•𝘔𝘋*
+│⭔ 𝘖𝘸𝘯𝘦𝘳: Reza
+│⭔ 𝘝𝘦𝘳𝘴𝘪𝘰𝘯: SaxiaBot
 │⭔ 𝘙𝘶𝘯𝘝𝘪𝘢:𝘏𝘦𝘳𝘰𝘬𝘶
 └───────⭓
 
@@ -3303,18 +3305,17 @@ break
 │
 └───────⭓
 
-𝐀𝐳𝐳𝐁𝐨𝐭•𝐌𝐃
-𝐁𝐲:𝐘𝐚𝐡𝐲𝐚𝐆𝐚𝐧𝐳𝐳|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
+Setraight•𝐌𝐃
+𝐁𝐲:Reza|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 SaxiaBot`
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
-                                }
+                                    phoneNumber: '+62 813-6174-8868'
                             }, {
                                 quickReplyButton: {
                                     displayText: '✰➪Tutor',
@@ -3328,7 +3329,7 @@ break
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Like👍..',
-                                    id: 'subscribe'
+                                    id: 'okeh'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -3375,12 +3376,12 @@ break
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3395,7 +3396,7 @@ break
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Like👍..',
-                                    id: 'subscribe'
+                                    id: 'okeh'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -3430,12 +3431,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3491,12 +3492,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3547,12 +3548,12 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3611,12 +3612,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3689,12 +3690,12 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3748,12 +3749,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3804,12 +3805,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3865,12 +3866,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3942,12 +3943,12 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4007,12 +4008,12 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4064,12 +4065,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4119,7 +4120,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
@@ -4169,12 +4170,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4220,12 +4221,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4278,12 +4279,12 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4339,12 +4340,12 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://wa.me6283805685278?text=Permisi Banh mau minta SC bot Setraight'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 813-6174-8868'
                                 }
                             }, {
                                 quickReplyButton: {
