@@ -3329,7 +3329,7 @@ Setraight•𝐌𝐃
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Like👍..',
-                                    id: 'okeh'
+                                    id: 'subscribe'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -3396,7 +3396,7 @@ Setraight•𝐌𝐃
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Like👍..',
-                                    id: 'okeh'
+                                    id: 'subscribe'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
