@@ -12,10 +12,10 @@ global.APIKeys = {
 }
 
 // NAMBAH BOLEH HAPUS JANGAN -_-
-global.owner = ['6281511480762']
-global.premium = ['621511480762']
-global.packname = 'AzzBot√'
-global.author = 'AzzBot-MD'
+global.owner = ['6281361748868']
+global.premium = ['6281361748868']
+global.packname = 'Reza'
+global.author = 'Setraight•𝐌𝐃'
 global.sessionName = 'Xavior'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -32,7 +32,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 5
+    free: 15
 }
 global.thumb = fs.readFileSync('./lib/xavi.jpg')
 global.tutor = fs.readFileSync('./video/intro.mp4')
